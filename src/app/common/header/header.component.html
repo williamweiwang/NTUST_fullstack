@@ -1,0 +1,124 @@
+<div class="clear"></div>
+<div class="container_12">
+  <div id="top">
+    <div class="grid_3">
+      <div class="phone_top">
+        <span>Call Us +777 (100) 1234</span>
+      </div><!-- .phone_top -->
+    </div><!-- .grid_3 -->
+
+    <div class="grid_6">
+      <div class="welcome">
+        Welcome visitor you can <a [routerLink]="['/login']">login</a> or <a [routerLink]="['/login']">create an
+          account</a>.
+      </div>
+    </div><!-- .grid_6 -->
+
+    <div class="grid_3">
+      <div class="valuta">
+        <ul>
+          <li class="curent"><a href="#">$</a></li>
+          <li><a href="#">&#8364;</a></li>
+          <li><a href="#">&#163;</a></li>
+        </ul>
+      </div><!-- .valuta -->
+
+
+      <div class="lang">
+        <ul>
+          <li class="curent"><a href="#">EN</a></li>
+          <li><a href="#">FR</a></li>
+          <li><a href="#">GM</a></li>
+        </ul>
+      </div><!-- .lang -->
+    </div><!-- .grid_3 -->
+  </div><!-- #top -->
+
+  <div class="clear"></div>
+
+  <header id="branding">
+    <div class="grid_3">
+      <div>
+        <h1 id="site_logo"><a href="/" title=""><img src="assets/images/logo.png" alt="Online Store Theme Logo" /></a></h1>
+        <h2 id="site_description">Online Store Theme</h2>
+      </div>
+    </div><!-- .grid_3 -->
+
+
+    <div class="grid_3">
+      <form class="search">
+        <input type="text" name="search" class="entry_form" value="" placeholder="Search entire store here..." />
+        <button></button>
+      </form>
+    </div><!-- .grid_3 -->
+
+    <div class="grid_6">
+      <ul id="cart_nav">
+        <li>
+          <a class="cart_li" [routerLink]="['/cart']">Cart <span>$0.00</span></a>
+          <ul class="cart_cont">
+            <li class="no_border">
+              <p>Recently added item(s)</p>
+            </li>
+            <li>
+              <a [routerLink]="['/index']" class="prev_cart">
+                <div class="cart_vert"><img src="assets/images/book_1.jpg" alt="" title="" /></div>
+              </a>
+              <div class="cont_cart">
+                <h4>Caldrea Linen and Room Spray</h4>
+                <div class="price">1 x $399.00</div>
+              </div>
+              <a title="close" class="close" href="#"></a>
+              <div class="clear"></div>
+            </li>
+
+            <li>
+              <a [routerLink]="['/']" class="prev_cart">
+                <div class="cart_vert"><img src="assets/images/book_3.jpg" alt="" title="" /></div>
+              </a>
+              <div class="cont_cart">
+                <h4>Caldrea Linen and Room Spray</h4>
+                <div class="price">1 x $399.00</div>
+              </div>
+              <a title="close" class="close" href="#"></a>
+              <div class="clear"></div>
+            </li>
+            <li class="no_border">
+              <a [routerLink]="['/cart']" class="view_cart">View shopping cart</a>
+              <a href="/checkout.html" class="checkout">Procced to Checkout</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+
+      <nav class="private">
+        <ul>
+          <li><a href="#">My Account</a></li>
+          <li class="separator">|</li>
+          <li><a href="#">My Wishlist</a></li>
+          <li class="separator">|</li>
+          <li><a [routerLink]="['/login']">Log In</a></li>
+          <li class="separator">|</li>
+          <li><a href="/login.html">Sign Up</a></li>
+        </ul>
+      </nav><!-- .private -->
+    </div><!-- .grid_6 -->
+  </header><!-- #branding -->
+</div><!-- .container_12 -->
+<div class="clear"></div>
+
+<div id="block_nav_primary">
+  <div class="container_12">
+    <div class="grid_12">
+      <nav class="primary">
+        <a class="menu-select" href="#">Catalog</a>
+        <ul>
+          <li class="curent"><a [routerLink]="['/home']">首頁</a></li>
+          <li><a [routerLink]="['/index']">中文書</a></li>
+          <li><a [routerLink]="['/index']">外文書·簡體書</a></li>
+          <li><a [routerLink]="['/index']">電子書</a></li>
+        </ul>
+      </nav><!-- .primary -->
+    </div><!-- .grid_12 -->
+  </div><!-- .container_12 -->
+</div><!-- .block_nav_primary -->
